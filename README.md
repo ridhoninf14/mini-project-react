@@ -1,16 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+# Mini Project - React Login App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple login form built using React and TailwindCSS, with dummy API integration.
 
-Currently, two official plugins are available:
+## 📦 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- TailwindCSS
+- Axios
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# mini-project-react
->>>>>>> f3d5483a1ad91df617eb72a6c5bb09fe6e72e9f1
+- Login form with validation
+- Axios integration to POST login data
+- Error handling for failed login
+- Responsive design
+
+## 📂 Project Structure
+src/
+├── components/
+│ └── Navbar.jsx
+|- Pages/
+|  - Home.jsx
+    - Login.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
